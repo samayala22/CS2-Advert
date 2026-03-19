@@ -18,7 +18,7 @@ class MainConfigModel {
     public string ChatPrefix { get; set; } = "[blue][Server][default]";
     public float AdInterval { get; set; } = 60.0f;
     public List<string> Ads { get; set; } = new List<string> {
-        "Use [red]!nominate[default] <mapname> / <workshopid> to nominate maps!",
+        "Use [red]!nom[default] <mapname> / <workshopid> to nominate ANY kz map!",
         "Use [red]!rtv[default] to rock the vote for map change!",
         "Use [red]!ws[default] to change knife or skins!"
     };
